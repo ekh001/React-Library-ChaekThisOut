@@ -1,0 +1,5 @@
+export * from './Dashboard'
+export * from './Home'
+export * from './Intro'
+export * from './About'
+export * from './EditData'
