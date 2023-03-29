@@ -79,7 +79,7 @@ function Intro() {
                 
                     
             <p>
-              NOTE: I hope you find something that speaks to you! These are real recommendations in my top 20.
+              NOTE: I hope you find something that speaks to you! Some of these are real recommendations in my top 20.
             </p>
 
             <p>

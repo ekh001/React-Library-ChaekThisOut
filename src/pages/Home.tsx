@@ -1,5 +1,5 @@
 import Background from '../assets/images/background1.svg'
-import BookPile from '../assets/images/book1refracted.png'
+import BookPile from '../assets/images/landing-image.jpg'
 
 import Navbar from '../components/NavBar'
 
@@ -34,8 +34,8 @@ function Home() {
       left: '50%',
       transform: 'translate(-50%, -50%)',
       width: 400,
-      bgcolor: 'white',
-      color: 'rgba(0, 191, 255)',
+      bgcolor: 'rgba(135,206,235)',
+      color: '	rgba(0,0,128)',
       border: '4px solid rgba(0, 191, 255)',
       borderRadius: '20px',
       boxShadow: 24,
@@ -94,7 +94,8 @@ function Home() {
           >
             <img 
             src={BookPile} alt="" 
-            className="h-96 w-96 mr-4 mt-4" 
+            
+            className="h-3/6 w-2/5 mr-4 ml-4 mt-4 drop-shadow-2xl border-2 border-black rounded-full" 
             />
 
             <h1 

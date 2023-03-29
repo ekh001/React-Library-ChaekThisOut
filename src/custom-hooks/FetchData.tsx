@@ -3,12 +3,12 @@ import { server_calls } from "../api/server"
 
 
 type BookData = {
-    id: string,
     title: string,
     author: string,
     genre: string,
     length: string,
     ISBN: string,
+    id: string,
 }
 
 export const useGetData = () => {

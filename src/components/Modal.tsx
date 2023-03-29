@@ -12,8 +12,8 @@ const Modal = ( props: Props ) => {
     return (
         <div 
             onClick={ props.onClose } 
-            className="fixed w-full h-full flex overflow-auto z-1 justify-center align-middle 
-            bg-gray-300 bg-opacity-25"
+            className="fixed w-full h-96 flex overflow-auto z-1 justify-center align-middle 
+            bg-gray-300 bg-opacity-25 z-10"
             >
                 <div 
                     className='max-w-600px w-4/5 h-96 fixed flex z-1  bg-white shadow-xl rounded overflow-y-auto'

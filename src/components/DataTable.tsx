@@ -47,7 +47,7 @@ function DataTable() {
 
         
         <div 
-        className={ open ? "hidden" : "container mx-10 my-10 flex flex-col drop-shadow-md"}
+        className={"container mx-10 my-10 flex flex-col drop-shadow-md"}
         style={{ height: 400, width: '90%'}}
         >
             <p 
