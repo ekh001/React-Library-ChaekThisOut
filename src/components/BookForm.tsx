@@ -28,8 +28,8 @@ const BookForm = (props:BookFormProps) => {
       event.target.reset()
     } else {
 
-      // Create a new book object using the form data
-      // Shay added a whole new costant for a key/value pair
+
+      // Shay added a whole new costant for a key/value pair, in order to create a new book object for the store
       const newBook = {
         title: data.title,
         author: data.author,
@@ -46,7 +46,9 @@ const BookForm = (props:BookFormProps) => {
       dispatch(chooseISBN(data.ISBN));
       dispatch(chooseID(data.id));
       
-      // Pass the new book object to the create function in the server_calls object
+
+      // Then they called the server_calls.create, and passed the new constant in there to 
+      // subvert the ID for a new book entirely. 
       server_calls.create(newBook);
       
       setTimeout( () => {window.location.reload()}, 500);
