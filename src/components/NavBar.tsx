@@ -43,7 +43,7 @@ function Navbar() {
                 to='/' 
                 className='font-semibold text-xl tracking-tight'
                 >
-                    Bookie McLibrary
+                    책 This Out
                 </Link>
             </div>
 

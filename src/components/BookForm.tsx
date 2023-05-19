@@ -49,8 +49,7 @@ const BookForm = (props:BookFormProps) => {
 
       // Then they called the server_calls.create, and passed the new constant in there to 
       // subvert the ID for a new book entirely. 
-      server_calls.create(newBook);
-      
+      server_calls.create(newBook);      
       setTimeout( () => {window.location.reload()}, 500);
     }
   }

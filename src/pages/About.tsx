@@ -1,8 +1,8 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 import Navbar from '../components/NavBar'
 
 import { Link } from 'react-router-dom'
-import { useState } from 'react'
+
 
 
 import FooterBackground from '../assets/images/footer-image.svg'
@@ -15,6 +15,8 @@ import chimaSource from '../assets/images/CNA-01.jpg'
 import davidSource from '../assets/images/davidjoy3.jpeg'
 
 import PageTransition from '../components/PageTransition';
+import AirVisualWidget from '../components/AirVisual';
+
 
 import { InstagramEmbed } from 'react-social-media-embed';
 import { TikTokEmbed } from 'react-social-media-embed';
@@ -50,6 +52,8 @@ function About() {
       },
     },
   };
+
+  
 
 
   return (
@@ -90,10 +94,10 @@ function About() {
                 <p 
                 className="p-5 m-5 text-2xl"
                 >
-                    Picture it: You've just finished your work week, and it's Friday night.  Time to curl up on the couch 
-                    with some tea (or a little whiskey, if you're feeling spicy) and a good book. You consult your bookshelf, 
-                    only to discover that you've read everything
-                    in your house. 
+                    Picture it: It's Friday night, and it's been a long week.  Time to curl up on the couch 
+                    with some tea (or wine, if you're feeling spicy) and a good book. You consult your bookshelf, 
+                    only to discover that you've already read everything
+                    in it. 
                 </p>
                 <p 
                 className="pb-20 text-2xl"
@@ -104,6 +108,10 @@ function About() {
                 </div>
             </div>
         </div>
+
+        {/* EXPERIMENT */}
+
+
 
             
 
@@ -117,6 +125,7 @@ function About() {
                     <div 
                     className='p-5 text-center text-4xl text-sky-800'
                     >
+                        {/* <AirVisualWidget /> */}
                         <h1 className='p-5' 
                         >
                             “But we must tell our stories, and not be ensnared by them.”
@@ -193,14 +202,13 @@ function About() {
                         text-center mt-4 text-xl"
                         >
                             David Joy
-                        </p>        
+                        </p>       
                     </div>
                 </div>
             </div>
 
 
-        {/* TikTok video */}
-        {/* This is where my TikTok video WOULD go, if I could figure out the Typescript equivalent....
+
         {/* Bookstore Locator */}
             <div 
             className="bg-white"
@@ -227,6 +235,7 @@ function About() {
                             The Novel Neighbor! Click the link to find one 
                             near you. 
                         </p> 
+
 
                         <button 
                         className='place-items-center 
@@ -298,10 +307,15 @@ function About() {
                         dedicated to advocating for banned books, as well as
                         celebrating free expression.             
                     </p>
+                    <div className="airvisual_widget" key="6426122dfa0a35d90eb74a9c"></div>
+<script type="text/javascript" src="https://widget.iqair.com/script/widget_v3.0.js"></script>
                     </div>
                 </div>
             </div>
         </div>
+
+        <div className="airvisual_widget" key="6426122dfa0a35d90eb74a9c"></div>
+<script type="text/javascript" src="https://widget.iqair.com/script/widget_v3.0.js"></script>
 
             {/* Empty Footer */}
                 <div style={{ backgroundImage: `url(${FooterBackground})`, 
