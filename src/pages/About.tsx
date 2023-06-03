@@ -229,8 +229,7 @@ function About() {
                         <p 
                         className=' pt-10   text-2xl'
                         >
-                            Let's be real, Bezos doesn't need any more money for his
-                            ridiculous phallic rockets. You can help stave off the consequences 
+                            Let's be real, Bezos doesn't need any more rocket money. You can help stave off the consequences 
                             of late-stage capitalism by supporting your local independent bookstores, like
                             The Novel Neighbor! Click the link to find one 
                             near you. 
@@ -299,10 +298,8 @@ function About() {
                     >
                         If you're living in the South (or a concerningly
                         large swath of the US right now), there's a chance 
-                        your state is trying to limit access to books that promote crazy 
-                        ideas like, "maybe cis white supremacy isn't the greatest 
-                        approach to a well-functioning and inclusive society after all," 
-                        or "women are people," or "slavery was bad". The Banned Books 
+                        your state government is trying to limit access to books that 
+                        don't align with its particular ideology. The Banned Books' 
                         Book Club is a monthly virtual banned books club that is 
                         dedicated to advocating for banned books, as well as
                         celebrating free expression.             

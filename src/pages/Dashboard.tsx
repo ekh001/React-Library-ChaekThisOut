@@ -69,14 +69,7 @@ const pageVariants = {
           >
             These are the books that have been checked in:
           </p>
-          <p 
-          className='font-2xl mt-2 text-center'
-          >
-            Note to Donovan and Shay: This has been shared with 
-            friends for testing. I refuse to be held accountable
-            for their actions.
-            Cheers!
-          </p>
+
       
         <BookAccordion />
 
