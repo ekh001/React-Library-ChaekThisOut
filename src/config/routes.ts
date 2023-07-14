@@ -23,7 +23,6 @@ const routes: RouteType[] = [
       path: "/dashboard",
       component: Dashboard,
       name: "Dashboard",
-      // this is set to "false" to prevent a constant popup
       protected: true,
     },
     {

@@ -4,7 +4,7 @@ import Navbar from '../components/NavBar'
 import { Link } from 'react-router-dom'
 
 
-
+// image imports
 import FooterBackground from '../assets/images/footer-image.svg'
 import HowItWorksBg from '../assets/images/about-bg.svg'
 import AuthorBg from '../assets/images/authors-bg.png'
@@ -14,10 +14,10 @@ import celesteSource from '../assets/images/celesteng.jpg'
 import chimaSource from '../assets/images/CNA-01.jpg'
 import davidSource from '../assets/images/davidjoy3.jpeg'
 
+// animation
 import PageTransition from '../components/PageTransition';
-import AirVisualWidget from '../components/AirVisual';
 
-
+// socials
 import { InstagramEmbed } from 'react-social-media-embed';
 import { TikTokEmbed } from 'react-social-media-embed';
 
@@ -109,12 +109,6 @@ function About() {
             </div>
         </div>
 
-        {/* EXPERIMENT */}
-
-
-
-            
-
             {/* Quote */}
             <div 
                 className='mt-[-120px] mb-[-200px]'
@@ -125,7 +119,6 @@ function About() {
                     <div 
                     className='p-5 text-center text-4xl text-sky-800'
                     >
-                        {/* <AirVisualWidget /> */}
                         <h1 className='p-5' 
                         >
                             “But we must tell our stories, and not be ensnared by them.”
@@ -223,14 +216,13 @@ function About() {
                         style={{ fontFamily: 'Calistoga' }} 
                         className='text-6xl'
                         >
-                            Down With Amazon. Shop Independent
+                            Empty Shelves? Shop Independent
                         </h3>
 
                         <p 
                         className=' pt-10   text-2xl'
                         >
-                            Let's be real, Bezos doesn't need any more rocket money. You can help stave off the consequences 
-                            of late-stage capitalism by supporting your local independent bookstores, like
+                            Are you sure Amazon needs more of your money? Why not try something new by supporting your local independent bookstores, like
                             The Novel Neighbor! Click the link to find one 
                             near you. 
                         </p> 
@@ -296,23 +288,17 @@ function About() {
                         <p 
                     className='pt-10 pb-3 text-center text-2xl'
                     >
-                        If you're living in the South (or a concerningly
-                        large swath of the US right now), there's a chance 
-                        your state government is trying to limit access to books that 
-                        don't align with its particular ideology. The Banned Books' 
+                        Is your state government trying to limit access to books that 
+                        don't align with its particular ideology? The Banned Books' 
                         Book Club is a monthly virtual banned books club that is 
                         dedicated to advocating for banned books, as well as
                         celebrating free expression.             
                     </p>
-                    <div className="airvisual_widget" key="6426122dfa0a35d90eb74a9c"></div>
-<script type="text/javascript" src="https://widget.iqair.com/script/widget_v3.0.js"></script>
+
                     </div>
                 </div>
             </div>
         </div>
-
-        <div className="airvisual_widget" key="6426122dfa0a35d90eb74a9c"></div>
-<script type="text/javascript" src="https://widget.iqair.com/script/widget_v3.0.js"></script>
 
             {/* Empty Footer */}
                 <div style={{ backgroundImage: `url(${FooterBackground})`, 

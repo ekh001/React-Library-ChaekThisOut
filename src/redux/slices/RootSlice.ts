@@ -11,7 +11,7 @@ const rootSlice = createSlice({
         id: "ID,"
     },
     reducers: {
-        // This settings the input from the form to the state.make
+        // This sets the input from the form to the state.make
         chooseTitle: (state, action) => { state.title = action.payload },
         chooseAuthor: (state, action) => { state.author = action.payload },
         chooseGenre: (state, action) => { state.genre = action.payload },
